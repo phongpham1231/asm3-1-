@@ -1,0 +1,33 @@
+/* /navbar */
+.nav-bar {
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+}
+/* .nav-barc {
+  margin-top: 20px;
+} */
+/* thong tin ca nhan */
+.muctieu {
+  background-color: rgb(113, 113, 113);
+}
+.thongtin {
+  background-color: aliceblue;
+}
+.text {
+  margin-left: 20%;
+  margin-top: -12%;
+}
+.text1 {
+  margin-left: 30%;
+  margin-top: -13%;
+}
+.text2 {
+  margin-left: 31%;
+  margin-top: -14%;
+}
+.text3 {
+  border-bottom: solid black 2px;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+}

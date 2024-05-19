@@ -1,0 +1,324 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* section > .container,
+section.container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+} */
+
+#nav-bar {
+  text-align: center;
+}
+
+#banner {
+  position: relative;
+}
+
+/* banner */
+.banner_img {
+  position: relative;
+}
+
+.banner_title {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+/* nav */
+.inf {
+  display: inline-block;
+}
+
+.nav {
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:hover {
+  background-color: green;
+  color: wheat;
+}
+
+/* end nav */
+/* thong tin ca nhan */
+
+#target {
+  background-color: palegreen;
+  width: 750px;
+}
+
+#personal-info {
+  background-color: gray;
+  width: 750px;
+}
+
+.infor {
+  display: flex;
+}
+
+.about_p {
+  line-height: auto;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.infor-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.infor-title2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+ul {
+  margin-top: 50px;
+  margin-left: 50px;
+  line-height: auto;
+}
+
+/* kinh nghiem-trai nghiem */
+/* #job-info {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(200px, 350px);
+  gap: 15px;
+  height: 100%; */
+
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+/* [class*="col"] > div {
+  height: 100%;
+} */
+
+#job-info .job-info-item {
+  padding: 10px;
+}
+
+.exp {
+  border: solid gray;
+}
+
+.hobby {
+  border: solid gray;
+}
+
+.knowledge {
+  border: solid gray;
+}
+
+.lang {
+  border: solid gray;
+}
+
+.acti {
+  border: solid gray;
+}
+
+.skill {
+  border: solid gray;
+}
+
+.icon1 {
+  margin-left: 200px;
+  font-size: 50px;
+  margin-top: -70px;
+}
+
+.icon2 {
+  font-size: 50px;
+  margin-left: 200px;
+  margin-top: -50px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.hobby-main {
+  display: inline-block;
+}
+
+.icon3 {
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border: solid green;
+  border-radius: 50%;
+}
+
+.span1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span2 {
+  background: gray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span3 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span4 {
+  background: gray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* #cer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: minmax(100px, 250px);
+  gap: 15px;
+  height: 100%;
+} */
+
+.cer1 {
+  border-bottom: solid #d6c08d;
+}
+
+.cer-text1 {
+  line-height: 20px;
+}
+
+.project-item {
+  gap: 10px;
+}
+
+/* .project {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: minmax(250px, 350px);
+  gap: 15px;
+  height: 100%;
+} */
+.title1 {
+  display: inline;
+}
+
+.project-title1 {
+  padding: 20px;
+  border-left: solid gray;
+  border-right: solid gray;
+  border-bottom: solid gray;
+}
+
+.project-text1 {
+  border-left: solid gray;
+  padding: 20px;
+  border-right: solid gray;
+  border-bottom: solid gray;
+}
+
+.table {
+  display: block;
+  border-left: solid gray;
+  padding: 10px;
+  border-right: solid gray;
+  border-bottom: solid gray;
+}
+
+.mota {
+  margin-top: -20px;
+}
+
+.fb {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.git {
+  display: inline-block;
+}
+
+.lin {
+  display: inline-block;
+}
+
+.fb1 {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inf {
+  border: solid white 8px;
+  position: absolute;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+#footer {
+  font-size: 30px;
+}
+
+.about_i {
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.job-item {
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+.footer {
+  text-align: center;
+}
+.ic1 {
+  font-size: 50px;
+}
